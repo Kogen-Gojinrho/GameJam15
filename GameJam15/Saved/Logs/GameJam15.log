@@ -1802,3 +1802,126 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.03.09-23.52.21:656][ 42]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 28.373657
 [2025.03.09-23.52.21:658][ 42]LogEOSSDK: LogEOS: SDK Config Data - Watermark: -36188152
 [2025.03.09-23.52.21:658][ 42]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 28.373657, Update Interval: 336.717438
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: ================================================
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Total job queries 11,648, among them cache hits 203 (1.74%), DDC hits 983 (8.44%), Duplicates 2,479 (21.28%)
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Tracking 8,966 distinct input hashes that result in 8,474 distinct outputs (94.51%)
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: RAM used: 6.33 MiB of 1.60 GiB budget. Usage: 0.39%
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Shaders Compiled: 7,983
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Jobs assigned 7,983, completed 7,983 (100%)
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Average time worker was idle: 0.33 s
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Time job spent in pending queue: average 158.36 s, longest 341.53 s
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Job execution time: average 3.42 s, max 61.49 s
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Job life time (pending + execution): average 161.78 s, max 342.21
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Shader code size: average 14.376 KiB, min 1.16 KiB, max 330.166 KiB
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 350.50 s
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.29%
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Jobs were issued in 844 batches (only local compilation was used), average 9.46 jobs/batch
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Average processing rate: 22.78 jobs/sec
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Total thread time: 2,644.124 s
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Total thread preprocess time: 87.893 s
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Percentage time preprocessing: 3.32%
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Effective parallelization: 7.54 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 13.35 sec, max 53.83 sec, min 0.87 sec)
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 10.31 sec, max 10.31 sec, min 10.31 sec)
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 6.09 sec, max 6.86 sec, min 3.88 sec)
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 2.45 sec, max 4.69 sec, min 0.86 sec)
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.02 sec, max 4.45 sec, min 1.03 sec)
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display:                                             FDeferredLightPS - 17.23% of total time (compiled  454 times, average 1.00 sec, max 1.67 sec, min 0.64 sec)
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 13.63% of total time (compiled   27 times, average 13.35 sec, max 53.83 sec, min 0.87 sec)
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 6.69% of total time (compiled  480 times, average 0.37 sec, max 0.58 sec, min 0.18 sec)
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 5.29% of total time (compiled   72 times, average 1.94 sec, max 2.90 sec, min 1.35 sec)
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display:                                                FOcclusionRGS - 4.08% of total time (compiled  192 times, average 0.56 sec, max 1.03 sec, min 0.33 sec)
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: === Material stats ===
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Materials Translated:    134
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Material Total Translate Time: 0.12 s
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Material Translation Only: 0.04 s (31%)
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.03.09-23.55.19:378][924]LogShaderCompilers: Display: ================================================
+[2025.03.09-23.57.58:723][402]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 365.448242
+[2025.03.09-23.57.59:723][405]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.09-23.57.59:723][405]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 366.114502, Update Interval: 318.516174
+[2025.03.10-00.03.22:116][372]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 688.842285
+[2025.03.10-00.03.23:117][375]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.10-00.03.23:117][375]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 689.509338, Update Interval: 337.693420
+[2025.03.10-00.09.08:463][411]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1035.188477
+[2025.03.10-00.09.09:463][414]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.10-00.09.09:463][414]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1035.855957, Update Interval: 341.461853
+[2025.03.10-00.10.06:564][197]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2025.03.10-00.10.06:564][197]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2025.03.10-00.10.06:564][197]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2025.03.10-00.10.06:564][197]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2025.03.10-00.10.06:565][197]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2025.03.10-00.10.06:565][197]LogWindows: Warning: URL: C:\Users\Kogen\AppData\Local/Programs/Git/cmd/git.exe version
+[2025.03.10-00.10.06:565][197]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2025.03.10-00.10.06:565][197]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2025.03.10-00.10.06:565][197]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2025.03.10-00.10.06:565][197]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2025.03.10-00.10.06:565][197]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2025.03.10-00.10.06:565][197]LogWindows: Warning: URL: C:\Users\Kogen\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2025.03.10-00.10.06:565][197]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2025.03.10-00.10.06:565][197]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2025.03.10-00.10.19:830][231]SourceControl: Error: Connection Error: Failed to enable Git revision control. You need to install Git and specify a valid path to git executable.
+[2025.03.10-00.14.11:282][917]LogSlate: Window 'Revision Control Login' being destroyed
+[2025.03.10-00.14.12:747][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.03.10-00.14.12:782][ 87]LogStall: Shutdown...
+[2025.03.10-00.14.12:782][ 87]LogStall: Shutdown complete.
+[2025.03.10-00.14.12:835][ 87]LogSlate: Window 'GameJam15 - Unreal Editor' being destroyed
+[2025.03.10-00.14.12:836][ 87]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2025.03.10-00.14.13:015][ 87]Cmd: QUIT_EDITOR
+[2025.03.10-00.14.13:015][ 88]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.03.10-00.14.13:029][ 88]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.03.10-00.14.13:029][ 88]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.03.10-00.14.13:029][ 88]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.03.10-00.14.13:030][ 88]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.03.10-00.14.13:030][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.10-00.14.13:030][ 88]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2025.03.10-00.14.13:040][ 88]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.03.10-00.14.13:040][ 88]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.03.10-00.14.13:041][ 88]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.03.10-00.14.13:041][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.10-00.14.13:046][ 88]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.03.10-00.14.13:046][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.10-00.14.13:047][ 88]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.03.10-00.14.13:056][ 88]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.03.10-00.14.13:056][ 88]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.03.10-00.14.13:056][ 88]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.03.10-00.14.13:057][ 88]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.03.10-00.14.13:057][ 88]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.03.10-00.14.13:057][ 88]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2025.03.10-00.14.13:057][ 88]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.03.10-00.14.13:057][ 88]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.03.10-00.14.13:059][ 88]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.03.10-00.14.13:063][ 88]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.03.10-00.14.13:063][ 88]LogAudio: Display: Audio Device Manager Shutdown
+[2025.03.10-00.14.13:065][ 88]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.03.10-00.14.13:065][ 88]LogExit: Preparing to exit.
+[2025.03.10-00.14.13:082][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.03.10-00.14.13:955][ 88]LogEditorDataStorage: Deinitializing
+[2025.03.10-00.14.14:088][ 88]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.03.10-00.14.14:097][ 88]LogExit: Editor shut down
+[2025.03.10-00.14.14:099][ 88]LogExit: Transaction tracking system shut down
+[2025.03.10-00.14.14:164][ 88]LogExit: Object subsystem successfully closed.
+[2025.03.10-00.14.14:184][ 88]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.03.10-00.14.14:552][ 88]LogMemoryProfiler: Shutdown
+[2025.03.10-00.14.14:552][ 88]LogNetworkingProfiler: Shutdown
+[2025.03.10-00.14.14:552][ 88]LoadingProfiler: Shutdown
+[2025.03.10-00.14.14:552][ 88]LogTimingProfiler: Shutdown
+[2025.03.10-00.14.14:908][ 88]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.03.10-00.14.14:908][ 88]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.03.10-00.14.14:908][ 88]LogNFORDenoise: NFORDenoise function shutting down
+[2025.03.10-00.14.14:912][ 88]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.03.10-00.14.14:912][ 88]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3778AAA2-4D33-A68E-D997-F8A35F04EDB2%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.3-39772772%2B%2B%2BUE5%2BRelease-5.5&UserID=1b47877840f02eb9293d1aa96ad5ea74%7C0217d6fce9814b98af916f1920abc62c%7C2176aa60-834c-49c1-ac30-4faaf965c5aa&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.03.10-00.14.15:450][ 88]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.03.10-00.14.15:465][ 88]RenderDocPlugin: plugin has been unloaded.
+[2025.03.10-00.14.15:466][ 88]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.03.10-00.14.15:466][ 88]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.03.10-00.14.15:466][ 88]LogPakFile: Destroying PakPlatformFile
+[2025.03.10-00.14.15:593][ 88]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.03.10-00.14.15:617][ 88]LogExit: Exiting.
+[2025.03.10-00.14.15:644][ 88]Log file closed, 03/09/25 17:14:15
