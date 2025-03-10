@@ -4,7 +4,17 @@
 		{
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
+<<<<<<< HEAD
 			"files": []
+=======
+			"files": [
+				"C:/Users/sdald/OneDrive/Documents/GitHub/GameJam15/GameJam15/Content/Level1/Level1.umap",
+				"C:/Users/sdald/OneDrive/Documents/GitHub/GameJam15/GameJam15/Content/Level1/_GENERATED/sdald/CubeGridToolOutput_B560D357.uasset",
+				"C:/Users/sdald/OneDrive/Documents/GitHub/GameJam15/GameJam15/Content/Level1/_GENERATED/sdald/CubeGridToolOutput_CC25C014.uasset",
+				"A:/Documents/GameJam15/GameJam15/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"A:/Documents/GameJam15/GameJam15/Content/Awadlington/WBP_Countdown.uasset"
+			]
+>>>>>>> 738eaea2362b3ffbf1d79931bd9c46d7ea89bfed
 		}
 	]
 }
