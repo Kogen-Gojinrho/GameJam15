@@ -1841,6 +1841,7 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.03.10-01.59.39:604][647]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Awadlington/WBP_Countdown_Auto1
 [2025.03.10-01.59.39:604][647]LogSavePackage: Moving '../../../../../Documents/GameJam15/GameJam15/Saved/WBP_Countdown_Auto1EA5315A640C854A0449F628C64D19F64.tmp' to '../../../../../Documents/GameJam15/GameJam15/Saved/Autosaves/Game/Awadlington/WBP_Countdown_Auto1.uasset'
 [2025.03.10-01.59.39:605][647]LogFileHelpers: Auto-saving content packages took 0.010
+<<<<<<< Updated upstream
 [2025.03.10-02.05.03:683][  4]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 979.923645
 [2025.03.10-02.05.04:683][  7]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.03.10-02.05.04:683][  7]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 980.590576, Update Interval: 352.547363
@@ -1950,3 +1951,5 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.03.10-02.08.54:756][833]LogD3D12RHI: ~FD3D12DynamicRHI
 [2025.03.10-02.08.54:779][833]LogExit: Exiting.
 [2025.03.10-02.08.54:813][833]Log file closed, 03/09/25 19:08:54
+=======
+>>>>>>> Stashed changes
