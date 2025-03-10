@@ -4,10 +4,7 @@
 		{
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
-			"files": [
-				"A:/Documents/GameJam15/GameJam15/Content/StarterContent/Architecture/Floor_400x400.uasset",
-				"A:/Documents/GameJam15/GameJam15/Content/Awadlington/WBP_Countdown.uasset"
-			]
+			"files": []
 		}
 	]
 }
