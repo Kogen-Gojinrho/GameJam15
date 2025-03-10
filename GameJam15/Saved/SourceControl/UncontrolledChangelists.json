@@ -10,9 +10,10 @@
 				"C:/GameJam15/GameJam15/GameJam15/Content/ThirdPerson/Blueprints/AIBehavior/BP_PatrolRoute.uasset",
 				"C:/GameJam15/GameJam15/GameJam15/Content/ThirdPerson/Blueprints/BP_GuardAI.uasset",
 				"C:/GameJam15/GameJam15/GameJam15/Content/ThirdPerson/Blueprints/AIBehavior/BT_GuardAI.uasset",
-				"C:/GameJam15/GameJam15/GameJam15/Content/ThirdPerson/Blueprints/AIBehavior/BTTask_Wander.uasset",
 				"C:/GameJam15/GameJam15/GameJam15/Content/ThirdPerson/Blueprints/AIBehavior/BPI_GuardAI.uasset",
 				"C:/GameJam15/GameJam15/GameJam15/Content/ThirdPerson/Blueprints/AIBehavior/BTTask_PatrolRoute.uasset",
+				"C:/GameJam15/GameJam15/GameJam15/Content/Characters/Mannequins/Animations/Manny/WallClimb_UE.uasset",
+				"C:/GameJam15/GameJam15/GameJam15/Content/ThirdPerson/Blueprints/AIBehavior/BTTask_Wander.uasset",
 				"C:/Users/sdald/OneDrive/Documents/GitHub/GameJam15/GameJam15/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Users/sdald/OneDrive/Documents/GitHub/GameJam15/GameJam15/Content/Level1/Level1.umap"
 			]
